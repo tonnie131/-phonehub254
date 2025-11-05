@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phone Hub 254 | Quality Second-Hand Phones</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(180deg, #0a0a0a, #1a1a1a);
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background: #111;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .logo {
+      font-size: 26px;
+      font-weight: bold;
+      color: #00ff88;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #ddd;
+      margin-left: 20px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #00ff88;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      color: #00ff88;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #ccc;
+      max-width: 700px;
+      margin: 20px auto;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .product {
+      background: #111;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .product:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 15px #00ff88;
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .product h3 {
+      margin: 15px 0 10px;
+      color: #00ff88;
+    }
+
+    .product p {
+      color: #aaa;
+      margin-bottom: 10px;
+    }
+
+    .product a {
+      background: #00ff88;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .product a:hover {
+      background: #00cc66;
+    }
+
+    #offers {
+      background: #0f0f0f;
+      border-radius: 12px;
+      text-align: center;
+      padding: 40px;
+    }
+
+    #offers h2 {
+      color: #00ff88;
+    }
+
+    footer {
+      background: #0d0d0d;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 40px;
+    }
+
+    .socials a {
+      color: #00ff88;
+      text-decoration: none;
+      margin: 0 10px;
+      transition: 0.3s;
+    }
+
+    .socials a:hover {
+      color: #fff;
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 28px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+      line-height: 60px;
+      text-decoration: none;
+      z-index: 1000;
+    }
+
+    .whatsapp-float:hover {
+      background-color: #20c057;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">📱 Phone Hub 254</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Phones</a>
+      <a href="#offers">Offers</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>Welcome to Phone Hub 254</h1>
+    <p>We sell quality second-hand phones at unbeatable prices. Transparent deals, honest reviews, and top-notch service — that’s Hakuna Matata style!</p>
+  </section>
+
+  <section class="section" id="products">
+    <h2>📦 Latest Phones</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9" alt="iPhone 12">
+        <h3>iPhone 12</h3>
+        <p>Excellent condition, 128GB storage.</p>
+        <a href="https://wa.me/254748801462">Order Now</a>
+      </div>
+
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7" alt="Samsung S21">
+        <h3>Samsung Galaxy S21</h3>
+        <p>Like new, with 3-month warranty.</p>
+        <a href="https://wa.me/254748801462">Order Now</a>
+      </div>
+
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1510552776732-03e61cf4b144" alt="Infinix Zero 8">
+        <h3>Infinix Zero 8</h3>
+        <p>Clean phone, fast performance.</p>
+        <a href="https://wa.me/254748801462">Order Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="offers">
+    <h2>🔥 Special Offers</h2>
+    <p>Check out our limited-time discounts on select phones. Call or WhatsApp us for exclusive deals!</p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>📞 Contact Us</h2>
+    <p style="text-align:center;">Reach us via WhatsApp at <b>0748801462</b><br>or message us on our social pages below.</p>
+  </section>
+
+  <footer>
+    <div class="socials">
+      <a href="https://www.instagram.com/phonehub254" target="_blank">Instagram</a> |
+      <a href="https://www.facebook.com/phonehub254" target="_blank">Facebook</a>
+    </div>
+    <p style="color:#777; margin-top:10px;">© 2025 Phone Hub 254. All rights reserved.</p>
+  </footer>
+
+  <a href="https://wa.me/254748801462" class="whatsapp-float" target="_blank">💬</a>
+</body>
+</html>
